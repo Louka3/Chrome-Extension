@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Word Definition Chrome Extension",
+  "description": "Word Definition Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "book.png",
+    "48": "book.png",
+    "128": "book.png"
+  }
+}
