@@ -9,7 +9,7 @@ searchWord = function(word){
         const meaning = data[0]["meanings"]
         
       });
-
+    }
 
 chrome.contextMenus.create({
 title: "Search Definition",
