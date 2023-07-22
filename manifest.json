@@ -6,12 +6,24 @@
   "action": {
     "default_popup": "index.html"
   },
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"], 
+        "js": ["main.js"],
+        "css": ["style.css"]
+    }
+],
   "permissions": [
     "contextMenus", 
-    "tabs"],
+    "tabs",
+    "notifications"
+],
   "icons": {
     "16": "book.png",
     "48": "book.png",
     "128": "book.png"
+  },
+  "background": {
+    "service_worker": "background.js"
   }
 }
